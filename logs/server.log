@@ -1,0 +1,502 @@
+2025-03-03 01:38:05 DEBUG i.n.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework
+2025-03-03 01:38:05 DEBUG i.n.c.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 24
+2025-03-03 01:38:05 DEBUG i.n.u.concurrent.GlobalEventExecutor - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+2025-03-03 01:38:05 DEBUG i.n.u.i.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2025-03-03 01:38:05 DEBUG i.n.u.i.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2025-03-03 01:38:05 DEBUG i.n.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+2025-03-03 01:38:05 DEBUG i.n.util.internal.PlatformDependent0 - Java version: 23
+2025-03-03 01:38:05 DEBUG i.n.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2025-03-03 01:38:05 DEBUG i.n.util.internal.PlatformDependent0 - sun.misc.Unsafe base methods: all available
+2025-03-03 01:38:05 DEBUG i.n.util.internal.PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+2025-03-03 01:38:05 DEBUG i.n.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2025-03-03 01:38:05 DEBUG i.n.util.internal.PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2025-03-03 01:38:05 DEBUG i.n.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2025-03-03 01:38:05 DEBUG i.n.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @cb51256
+2025-03-03 01:38:05 DEBUG i.n.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+2025-03-03 01:38:05 DEBUG i.n.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2025-03-03 01:38:05 DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\volts\AppData\Local\Temp (java.io.tmpdir)
+2025-03-03 01:38:05 DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2025-03-03 01:38:05 DEBUG i.n.util.internal.PlatformDependent - Platform: Windows
+2025-03-03 01:38:05 DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+2025-03-03 01:38:05 DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2025-03-03 01:38:05 DEBUG io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+2025-03-03 01:38:05 DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+2025-03-03 01:38:05 DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2025-03-03 01:38:05 DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2025-03-03 01:38:05 DEBUG i.n.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2025-03-03 01:38:05 DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 12844 (auto-detected)
+2025-03-03 01:38:05 DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+2025-03-03 01:38:05 DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+2025-03-03 01:38:05 DEBUG i.netty.util.NetUtilInitializations - Loopback interface: loopback_0 (Software Loopback Interface 1, 0:0:0:0:0:0:0:1)
+2025-03-03 01:38:05 DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2025-03-03 01:38:05 DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 00:00:00:00:00:00:00:e0 (auto-detected)
+2025-03-03 01:38:05 DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+2025-03-03 01:38:05 DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+2025-03-03 01:38:05 DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 24
+2025-03-03 01:38:05 DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 24
+2025-03-03 01:38:05 DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+2025-03-03 01:38:05 DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+2025-03-03 01:38:05 DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+2025-03-03 01:38:05 DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+2025-03-03 01:38:05 DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+2025-03-03 01:38:05 DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2025-03-03 01:38:05 DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+2025-03-03 01:38:05 DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2025-03-03 01:38:05 DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+2025-03-03 01:38:05 DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2025-03-03 01:38:05 DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.disableCacheFinalizersForFastThreadLocalThreads: false
+2025-03-03 01:38:05 DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+2025-03-03 01:38:05 DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+2025-03-03 01:38:05 DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2025-03-03 01:38:05 DEBUG i.n.b.ChannelInitializerExtensions - -Dio.netty.bootstrap.extensions: null
+2025-03-03 01:39:15 INFO  server.ServerHandler - Клиент /127.0.0.1:60371 подключен
+2025-03-03 01:39:31 DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2025-03-03 01:39:31 DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+2025-03-03 01:39:31 DEBUG io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
+2025-03-03 01:39:31 DEBUG io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
+2025-03-03 01:39:31 DEBUG io.netty.util.Recycler - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+2025-03-03 01:39:31 DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+2025-03-03 01:39:31 DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+2025-03-03 01:39:31 DEBUG i.n.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@266b651e
+2025-03-03 01:43:59 INFO  server.ServerHandler - Клиент /127.0.0.1:60478 подключен
+2025-03-03 01:45:43 ERROR server.ServerHandler - Ошибка: 
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403)
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:435)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:356)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:796)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:732)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2025-03-03 01:46:20 INFO  server.ServerHandler - Клиент /127.0.0.1:60528 подключен
+2025-03-03 01:48:23 INFO  server.ServerHandler - Клиент /127.0.0.1:60561 подключен
+2025-03-03 03:59:10 INFO  server.Server - Сервер запущен на порту 11111
+2025-03-03 03:59:44 INFO  server.Server - Новое подключение: /127.0.0.1:62974
+2025-03-03 03:59:44 INFO  server.ServerHandler - Клиент /127.0.0.1:62974 подключен
+2025-03-03 03:59:50 INFO  server.Server - Активных пользователей: 1
+2025-03-03 03:59:50 INFO  server.ServerHandler - Пользователь aboba успешно вошел в систему
+2025-03-03 04:00:09 WARN  server.ServerHandler - Предупреждение: некорректный ввод команды create. Пользователь: aboba
+2025-03-03 04:00:30 INFO  server.ServerHandler - Пользователь aboba создал раздел: topic1
+2025-03-03 04:00:42 INFO  server.ServerHandler - Пользователь aboba создал раздел: topic2
+2025-03-03 04:01:07 INFO  server.ServerHandler - Пользователь aboba создал голосование vote1 в разделе topic1
+2025-03-03 04:01:21 INFO  server.ServerHandler - Пользователь aboba проголосовал в голосовании vote1 раздела topic1
+2025-03-03 04:01:26 INFO  server.ServerHandler - Пользователь aboba запросил список всех разделов
+2025-03-03 04:01:36 INFO  server.ServerHandler - Пользователь aboba запросил детали голосования: vote1 в разделе: topic1
+2025-03-03 04:01:50 INFO  server.Server - Данные были успешно сохранены в файл mydata.json
+2025-03-03 04:01:50 WARN  server.ServerHandler - Данные сохранены в файл mydata.json
+2025-03-03 04:01:50 ERROR server.ServerHandler - При попытке загрузки из файла mydata.json возникла ошибка: Cannot invoke "java.util.List.iterator()" because the return value of "java.util.Map.get(Object)" is null
+java.lang.NullPointerException: Cannot invoke "java.util.List.iterator()" because the return value of "java.util.Map.get(Object)" is null
+	at server.Server.load(Server.java:118)
+	at server.ServerHandler.handleCommand(ServerHandler.java:108)
+	at server.ServerHandler.channelRead0(ServerHandler.java:476)
+	at server.ServerHandler.channelRead0(ServerHandler.java:13)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:99)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:107)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1357)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:868)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:796)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:732)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2025-03-03 04:01:50 WARN  server.ServerHandler - Пользователь ввел некорректную команду save mydata
+2025-03-03 04:05:45 INFO  server.ServerHandler - Пользователь aboba запросил список всех разделов
+2025-03-03 04:06:02 ERROR server.ServerHandler - При попытке загрузки из файла mydata.json возникла ошибка: Cannot invoke "java.util.List.iterator()" because the return value of "java.util.Map.get(Object)" is null
+java.lang.NullPointerException: Cannot invoke "java.util.List.iterator()" because the return value of "java.util.Map.get(Object)" is null
+	at server.Server.load(Server.java:118)
+	at server.ServerHandler.handleCommand(ServerHandler.java:108)
+	at server.ServerHandler.channelRead0(ServerHandler.java:476)
+	at server.ServerHandler.channelRead0(ServerHandler.java:13)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:99)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:107)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1357)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:868)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:796)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:732)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2025-03-03 04:06:02 WARN  server.ServerHandler - Пользователь ввел некорректную команду load mydata
+2025-03-03 04:06:40 INFO  server.Server - Активных пользователей: 1
+2025-03-03 04:06:40 INFO  server.ServerHandler - Клиент /127.0.0.1:62974 (пользователь aboba) завершил сеанс
+2025-03-03 04:09:48 INFO  server.Server - Сервер запущен на порту 11111
+2025-03-03 04:10:17 INFO  server.Server - Новое подключение: /127.0.0.1:63309
+2025-03-03 04:10:17 INFO  server.ServerHandler - Клиент /127.0.0.1:63309 подключен
+2025-03-03 04:10:26 INFO  server.Server - Активных пользователей: 1
+2025-03-03 04:10:26 INFO  server.ServerHandler - Пользователь aboba успешно вошел в систему
+2025-03-03 04:10:32 ERROR server.ServerHandler - При попытке загрузки из файла mydata.json возникла ошибка: Cannot invoke "java.util.List.iterator()" because the return value of "java.util.Map.get(Object)" is null
+java.lang.NullPointerException: Cannot invoke "java.util.List.iterator()" because the return value of "java.util.Map.get(Object)" is null
+	at server.Server.load(Server.java:118)
+	at server.ServerHandler.handleCommand(ServerHandler.java:109)
+	at server.ServerHandler.channelRead0(ServerHandler.java:478)
+	at server.ServerHandler.channelRead0(ServerHandler.java:13)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:99)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:107)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1357)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:868)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:796)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:732)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2025-03-03 04:11:08 INFO  server.Server - Сервер запущен на порту 11111
+2025-03-03 04:11:12 INFO  server.Server - Новое подключение: /127.0.0.1:63335
+2025-03-03 04:11:12 INFO  server.ServerHandler - Клиент /127.0.0.1:63335 подключен
+2025-03-03 04:11:24 INFO  server.Server - Активных пользователей: 1
+2025-03-03 04:11:24 INFO  server.ServerHandler - Пользователь aboba успешно вошел в систему
+2025-03-03 04:11:34 INFO  server.ServerHandler - Пользователь aboba создал раздел: topic1
+2025-03-03 04:11:46 WARN  server.ServerHandler - Предупреждение: попытка ввода da в качестве числа ответов. Пользователь: aboba
+2025-03-03 04:11:51 INFO  server.ServerHandler - Пользователь aboba создал голосование vote1 в разделе topic1
+2025-03-03 04:12:05 INFO  server.ServerHandler - Пользователь aboba проголосовал в голосовании vote1 раздела topic1
+2025-03-03 04:12:13 INFO  server.Server - Данные были успешно сохранены в файл mydata.json
+2025-03-03 04:12:13 WARN  server.ServerHandler - Данные сохранены в файл mydata.json
+2025-03-03 04:12:18 INFO  server.ServerHandler - Пользователь aboba запросил список всех разделов
+2025-03-03 04:12:46 INFO  server.ServerHandler - Пользователь aboba удалил голосование vote1 из раздела topic1
+2025-03-03 04:12:49 INFO  server.ServerHandler - Пользователь aboba запросил список всех разделов
+2025-03-03 04:12:54 ERROR server.ServerHandler - При попытке загрузки из файла mydata.json возникла ошибка: Cannot invoke "java.util.List.iterator()" because the return value of "java.util.Map.get(Object)" is null
+java.lang.NullPointerException: Cannot invoke "java.util.List.iterator()" because the return value of "java.util.Map.get(Object)" is null
+	at server.Server.load(Server.java:118)
+	at server.ServerHandler.handleCommand(ServerHandler.java:109)
+	at server.ServerHandler.channelRead0(ServerHandler.java:478)
+	at server.ServerHandler.channelRead0(ServerHandler.java:13)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:99)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:107)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1357)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:868)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:796)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:732)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2025-03-03 04:14:23 ERROR server.ServerHandler - Ошибка у пользователя aboba: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403)
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:435)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:356)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:796)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:732)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2025-03-03 04:14:23 INFO  server.Server - Активных пользователей: 1
+2025-03-03 04:14:23 INFO  server.ServerHandler - Клиент /127.0.0.1:63335 (пользователь aboba) отключен
+2025-03-03 04:15:22 INFO  server.Server - Сервер запущен на порту 11111
+2025-03-03 04:15:35 INFO  server.Server - Новое подключение: /127.0.0.1:63429
+2025-03-03 04:15:35 INFO  server.ServerHandler - Клиент /127.0.0.1:63429 подключен
+2025-03-03 04:16:20 INFO  server.Server - Активных пользователей: 1
+2025-03-03 04:16:20 INFO  server.ServerHandler - Пользователь aboba успешно вошел в систему
+2025-03-03 04:16:27 ERROR server.ServerHandler - При попытке загрузки из файла mydata.json возникла ошибка: class java.util.LinkedHashMap cannot be cast to class java.util.List (java.util.LinkedHashMap and java.util.List are in module java.base of loader 'bootstrap')
+java.lang.ClassCastException: class java.util.LinkedHashMap cannot be cast to class java.util.List (java.util.LinkedHashMap and java.util.List are in module java.base of loader 'bootstrap')
+	at server.Server.load(Server.java:118)
+	at server.ServerHandler.handleCommand(ServerHandler.java:109)
+	at server.ServerHandler.channelRead0(ServerHandler.java:478)
+	at server.ServerHandler.channelRead0(ServerHandler.java:13)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:99)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:107)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1357)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:868)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:796)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:732)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2025-03-03 04:32:21 INFO  server.Server - Сервер запущен на порту 11111
+2025-03-03 04:32:37 INFO  server.Server - Новое подключение: /127.0.0.1:63753
+2025-03-03 04:32:37 INFO  server.ServerHandler - Клиент /127.0.0.1:63753 подключен
+2025-03-03 04:32:45 INFO  server.Server - Активных пользователей: 1
+2025-03-03 04:32:45 INFO  server.ServerHandler - Пользователь aboba успешно вошел в систему
+2025-03-03 04:32:53 ERROR server.ServerHandler - При попытке загрузки из файла mydata.json возникла ошибка: class java.util.ArrayList cannot be cast to class java.util.Map (java.util.ArrayList and java.util.Map are in module java.base of loader 'bootstrap')
+java.lang.ClassCastException: class java.util.ArrayList cannot be cast to class java.util.Map (java.util.ArrayList and java.util.Map are in module java.base of loader 'bootstrap')
+	at server.Server.load(Server.java:113)
+	at server.ServerHandler.handleCommand(ServerHandler.java:109)
+	at server.ServerHandler.channelRead0(ServerHandler.java:478)
+	at server.ServerHandler.channelRead0(ServerHandler.java:13)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:99)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:107)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1357)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:868)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:796)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:732)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2025-03-03 04:46:07 ERROR server.ServerHandler - Ошибка у пользователя aboba: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403)
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:435)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:356)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:796)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:732)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2025-03-03 04:46:07 INFO  server.Server - Активных пользователей: 1
+2025-03-03 04:46:07 INFO  server.ServerHandler - Клиент /127.0.0.1:63753 (пользователь aboba) отключен
+2025-03-03 04:46:36 INFO  server.Server - Сервер запущен на порту 11111
+2025-03-03 04:46:42 INFO  server.Server - Новое подключение: /127.0.0.1:63957
+2025-03-03 04:46:42 INFO  server.ServerHandler - Клиент /127.0.0.1:63957 подключен
+2025-03-03 04:46:48 INFO  server.Server - Активных пользователей: 1
+2025-03-03 04:46:48 INFO  server.ServerHandler - Пользователь aboba успешно вошел в систему
+2025-03-03 04:46:54 WARN  server.ServerHandler - Данные загружены из файла mydata.json
+2025-03-03 04:46:58 INFO  server.ServerHandler - Пользователь aboba запросил список всех разделов
+2025-03-03 04:47:03 INFO  server.ServerHandler - Пользователь aboba запросил список голосований в разделе topic1
+2025-03-03 04:47:11 INFO  server.ServerHandler - Пользователь aboba запросил детали голосования: vote1 в разделе: topic1
+2025-03-03 04:47:34 ERROR server.ServerHandler - Ошибка у пользователя aboba: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403)
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:435)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:356)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:796)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:732)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2025-03-03 04:47:34 INFO  server.Server - Активных пользователей: 1
+2025-03-03 04:47:34 INFO  server.ServerHandler - Клиент /127.0.0.1:63957 (пользователь aboba) отключен
+2025-03-03 04:55:07 INFO  server.Server - Сервер запущен на порту 11111
+2025-03-03 04:55:14 INFO  server.Server - Новое подключение: /127.0.0.1:64147
+2025-03-03 04:55:14 INFO  server.ServerHandler - Клиент /127.0.0.1:64147 подключен
+2025-03-03 04:55:26 INFO  server.Server - Активных пользователей: 1
+2025-03-03 04:55:26 INFO  server.ServerHandler - Пользователь aboba успешно вошел в систему
+2025-03-03 04:55:45 WARN  server.ServerHandler - Предупреждение: некорректный ввод команды create. Пользователь: aboba
+2025-03-03 04:55:53 INFO  server.ServerHandler - Пользователь aboba создал раздел: topic1
+2025-03-03 04:55:58 INFO  server.ServerHandler - Пользователь aboba создал раздел: topic2
+2025-03-03 04:56:10 WARN  server.ServerHandler - Предупреждение: попытка ввода da в качестве числа ответов. Пользователь: aboba
+2025-03-03 04:56:14 INFO  server.ServerHandler - Пользователь aboba создал голосование vote1 в разделе topic1
+2025-03-03 04:56:27 INFO  server.ServerHandler - Пользователь aboba проголосовал в голосовании vote1 раздела topic1
+2025-03-03 04:56:30 INFO  server.ServerHandler - Пользователь aboba запросил список всех разделов
+2025-03-03 04:56:36 INFO  server.Server - Создана папка data
+2025-03-03 04:56:36 INFO  server.Server - Данные были успешно сохранены в файл mydata.json
+2025-03-03 04:56:36 WARN  server.ServerHandler - Данные сохранены в файл mydata.json
+2025-03-03 04:57:28 INFO  server.Server - Активных пользователей: 1
+2025-03-03 04:57:28 INFO  server.ServerHandler - Клиент /127.0.0.1:64147 (пользователь aboba) завершил сеанс
+2025-03-03 04:57:34 INFO  server.Server - Новое подключение: /127.0.0.1:64190
+2025-03-03 04:57:34 INFO  server.ServerHandler - Клиент /127.0.0.1:64190 подключен
+2025-03-03 04:57:44 WARN  server.ServerHandler - Данные загружены из файла mydata.json
+2025-03-03 04:57:46 WARN  server.ServerHandler - Неавторизованный пользователь попытался выполнить команду view
+2025-03-03 04:57:52 INFO  server.Server - Активных пользователей: 1
+2025-03-03 04:57:52 INFO  server.ServerHandler - Пользователь aboba успешно вошел в систему
+2025-03-03 04:57:54 INFO  server.ServerHandler - Пользователь aboba запросил список всех разделов
+2025-03-03 04:58:52 INFO  server.ServerHandler - Пользователь aboba запросил детали голосования: vote1 в разделе: topic1
+2025-03-03 05:00:03 INFO  server.Server - Активных пользователей: 1
+2025-03-03 05:00:03 INFO  server.ServerHandler - Клиент /127.0.0.1:64190 (пользователь aboba) завершил сеанс
+2025-03-03 05:54:01 INFO  server.Server - Активных пользователей: 1
+2025-03-03 05:54:01 INFO  server.ServerHandler - Пользователь zhenya успешно вошел в систему
+2025-03-03 05:54:01 INFO  server.ServerHandler - Пользователь zhenya создал раздел: testTopic
+2025-03-03 05:54:01 INFO  server.ServerHandler - Пользователь zhenya создал голосование testVote в разделе testTopic
+2025-03-03 05:54:01 INFO  server.ServerHandler - Пользователь zhenya удалил голосование testVote из раздела testTopic
+2025-03-03 05:54:01 INFO  server.Server - Активных пользователей: 1
+2025-03-03 05:54:01 INFO  server.ServerHandler - Пользователь zhenya успешно вошел в систему
+2025-03-03 05:54:01 INFO  server.ServerHandler - Пользователь zhenya создал раздел: testTopic
+2025-03-03 05:54:01 INFO  server.ServerHandler - Пользователь zhenya создал голосование testVote в разделе testTopic
+2025-03-03 05:54:01 INFO  server.Server - Данные были успешно сохранены в файл testdata.json
+2025-03-03 05:54:01 WARN  server.ServerHandler - Данные сохранены в файл testdata.json
+2025-03-03 05:54:01 WARN  server.ServerHandler - Данные загружены из файла testdata.json
+2025-03-03 05:54:01 INFO  server.Server - Активных пользователей: 1
+2025-03-03 05:54:01 INFO  server.ServerHandler - Пользователь zhenya успешно вошел в систему
+2025-03-03 05:54:01 INFO  server.ServerHandler - Пользователь zhenya создал раздел: polls
+2025-03-03 05:54:01 INFO  server.ServerHandler - Пользователь zhenya запросил список всех разделов
+2025-03-03 05:54:01 WARN  server.ServerHandler - Пользователь ввел некорректную команду afkaefjksmerk
+2025-03-03 05:54:01 INFO  server.Server - Активных пользователей: 1
+2025-03-03 05:54:01 INFO  server.ServerHandler - Пользователь zhenya успешно вошел в систему
+2025-03-03 05:54:01 INFO  server.Server - Активных пользователей: 1
+2025-03-03 05:54:01 INFO  server.ServerHandler - Пользователь zhenya успешно вошел в систему
+2025-03-03 05:54:01 INFO  server.Server - Активных пользователей: 1
+2025-03-03 05:54:01 INFO  server.ServerHandler - Пользователь zhenya успешно вошел в систему
+2025-03-03 05:54:01 INFO  server.ServerHandler - Пользователь zhenya создал раздел: psychology
+2025-03-03 05:54:01 INFO  server.Server - Активных пользователей: 1
+2025-03-03 05:54:01 INFO  server.Server - Активных пользователей: 1
+2025-03-03 05:54:01 INFO  server.Server - Активных пользователей: 1
+2025-03-03 05:54:01 INFO  server.Server - Данные были успешно сохранены в файл testdata.json
+2025-03-03 05:55:14 INFO  server.Server - Активных пользователей: 1
+2025-03-03 05:55:14 INFO  server.ServerHandler - Пользователь zhenya успешно вошел в систему
+2025-03-03 05:55:14 INFO  server.ServerHandler - Пользователь zhenya создал раздел: testTopic
+2025-03-03 05:55:14 INFO  server.ServerHandler - Пользователь zhenya создал голосование testVote в разделе testTopic
+2025-03-03 05:55:14 INFO  server.ServerHandler - Пользователь zhenya удалил голосование testVote из раздела testTopic
+2025-03-03 05:55:14 INFO  server.Server - Активных пользователей: 1
+2025-03-03 05:55:14 INFO  server.ServerHandler - Пользователь zhenya успешно вошел в систему
+2025-03-03 05:55:14 INFO  server.ServerHandler - Пользователь zhenya создал раздел: testTopic
+2025-03-03 05:55:14 INFO  server.ServerHandler - Пользователь zhenya создал голосование testVote в разделе testTopic
+2025-03-03 05:55:15 INFO  server.Server - Данные были успешно сохранены в файл testdata.json
+2025-03-03 05:55:15 WARN  server.ServerHandler - Данные сохранены в файл testdata.json
+2025-03-03 05:55:15 WARN  server.ServerHandler - Данные загружены из файла testdata.json
+2025-03-03 05:55:15 INFO  server.Server - Активных пользователей: 1
+2025-03-03 05:55:15 INFO  server.ServerHandler - Пользователь zhenya успешно вошел в систему
+2025-03-03 05:55:15 INFO  server.ServerHandler - Пользователь zhenya создал раздел: polls
+2025-03-03 05:55:15 INFO  server.ServerHandler - Пользователь zhenya запросил список всех разделов
+2025-03-03 05:55:15 WARN  server.ServerHandler - Пользователь ввел некорректную команду afkaefjksmerk
+2025-03-03 05:55:15 INFO  server.Server - Активных пользователей: 1
+2025-03-03 05:55:15 INFO  server.ServerHandler - Пользователь zhenya успешно вошел в систему
+2025-03-03 05:55:15 INFO  server.Server - Активных пользователей: 1
+2025-03-03 05:55:15 INFO  server.ServerHandler - Пользователь zhenya успешно вошел в систему
+2025-03-03 05:55:15 INFO  server.ServerHandler - Пользователь zhenya создал раздел: basic
+2025-03-03 05:55:15 INFO  server.ServerHandler - Пользователь zhenya создал голосование animals в разделе basic
+2025-03-03 05:55:15 INFO  server.Server - Активных пользователей: 1
+2025-03-03 05:55:15 INFO  server.ServerHandler - Пользователь zhenya успешно вошел в систему
+2025-03-03 05:55:15 INFO  server.ServerHandler - Пользователь zhenya создал раздел: psychology
+2025-03-03 05:55:15 INFO  server.Server - Активных пользователей: 1
+2025-03-03 05:55:15 INFO  server.Server - Активных пользователей: 1
+2025-03-03 05:55:15 INFO  server.Server - Активных пользователей: 1
+2025-03-03 05:55:15 INFO  server.Server - Данные были успешно сохранены в файл testdata.json
+2025-03-03 06:18:46 INFO  server.Server - Активных пользователей: 1
+2025-03-03 06:18:46 INFO  server.ServerHandler - Пользователь zhenya успешно вошел в систему
+2025-03-03 06:18:46 INFO  server.ServerHandler - Пользователь zhenya создал раздел: testTopic
+2025-03-03 06:18:46 INFO  server.ServerHandler - Пользователь zhenya создал голосование testVote в разделе testTopic
+2025-03-03 06:18:46 INFO  server.ServerHandler - Пользователь zhenya удалил голосование testVote из раздела testTopic
+2025-03-03 06:18:46 INFO  server.Server - Активных пользователей: 1
+2025-03-03 06:18:46 INFO  server.ServerHandler - Пользователь zhenya успешно вошел в систему
+2025-03-03 06:18:46 INFO  server.ServerHandler - Пользователь zhenya создал раздел: testTopic
+2025-03-03 06:18:46 INFO  server.ServerHandler - Пользователь zhenya создал голосование testVote в разделе testTopic
+2025-03-03 06:18:46 INFO  server.Server - Данные были успешно сохранены в файл testdata.json
+2025-03-03 06:18:46 WARN  server.ServerHandler - Данные сохранены в файл testdata.json
+2025-03-03 06:18:46 WARN  server.ServerHandler - Данные загружены из файла testdata.json
+2025-03-03 06:18:46 INFO  server.Server - Активных пользователей: 1
+2025-03-03 06:18:46 INFO  server.ServerHandler - Пользователь zhenya успешно вошел в систему
+2025-03-03 06:18:46 INFO  server.ServerHandler - Пользователь zhenya создал раздел: polls
+2025-03-03 06:18:46 INFO  server.ServerHandler - Пользователь zhenya запросил список всех разделов
+2025-03-03 06:18:46 WARN  server.ServerHandler - Пользователь ввел некорректную команду afkaefjksmerk
+2025-03-03 06:18:46 INFO  server.Server - Активных пользователей: 1
+2025-03-03 06:18:46 INFO  server.ServerHandler - Пользователь zhenya успешно вошел в систему
+2025-03-03 06:18:46 INFO  server.Server - Активных пользователей: 1
+2025-03-03 06:18:46 INFO  server.ServerHandler - Пользователь zhenya успешно вошел в систему
+2025-03-03 06:18:46 INFO  server.ServerHandler - Пользователь zhenya создал раздел: basic
+2025-03-03 06:18:46 INFO  server.ServerHandler - Пользователь zhenya создал голосование animals в разделе basic
+2025-03-03 06:18:46 INFO  server.Server - Активных пользователей: 1
+2025-03-03 06:18:46 INFO  server.ServerHandler - Пользователь zhenya успешно вошел в систему
+2025-03-03 06:18:46 INFO  server.ServerHandler - Пользователь zhenya создал раздел: psychology
+2025-03-03 06:18:46 INFO  server.Server - Активных пользователей: 1
+2025-03-03 06:18:46 INFO  server.Server - Активных пользователей: 1
+2025-03-03 06:18:46 INFO  server.Server - Активных пользователей: 1
+2025-03-03 06:18:46 INFO  server.Server - Данные были успешно сохранены в файл testdata.json
+2025-03-03 06:19:09 INFO  server.Server - Активных пользователей: 1
+2025-03-03 06:19:09 INFO  server.ServerHandler - Пользователь zhenya успешно вошел в систему
+2025-03-03 06:19:09 INFO  server.ServerHandler - Пользователь zhenya создал раздел: testTopic
+2025-03-03 06:19:09 INFO  server.ServerHandler - Пользователь zhenya создал голосование testVote в разделе testTopic
+2025-03-03 06:19:09 INFO  server.ServerHandler - Пользователь zhenya удалил голосование testVote из раздела testTopic
+2025-03-03 06:19:09 INFO  server.Server - Активных пользователей: 1
+2025-03-03 06:19:09 INFO  server.ServerHandler - Пользователь zhenya успешно вошел в систему
+2025-03-03 06:19:09 INFO  server.ServerHandler - Пользователь zhenya создал раздел: testTopic
+2025-03-03 06:19:09 INFO  server.ServerHandler - Пользователь zhenya создал голосование testVote в разделе testTopic
+2025-03-03 06:19:09 INFO  server.Server - Данные были успешно сохранены в файл testdata.json
+2025-03-03 06:19:09 WARN  server.ServerHandler - Данные сохранены в файл testdata.json
+2025-03-03 06:19:09 WARN  server.ServerHandler - Данные загружены из файла testdata.json
+2025-03-03 06:19:09 INFO  server.Server - Активных пользователей: 1
+2025-03-03 06:19:09 INFO  server.ServerHandler - Пользователь zhenya успешно вошел в систему
+2025-03-03 06:19:09 INFO  server.ServerHandler - Пользователь zhenya создал раздел: polls
+2025-03-03 06:19:09 INFO  server.ServerHandler - Пользователь zhenya запросил список всех разделов
+2025-03-03 06:19:09 WARN  server.ServerHandler - Пользователь ввел некорректную команду afkaefjksmerk
+2025-03-03 06:19:09 INFO  server.Server - Активных пользователей: 1
+2025-03-03 06:19:09 INFO  server.ServerHandler - Пользователь zhenya успешно вошел в систему
+2025-03-03 06:19:09 INFO  server.Server - Активных пользователей: 1
+2025-03-03 06:19:09 INFO  server.ServerHandler - Пользователь zhenya успешно вошел в систему
+2025-03-03 06:19:09 INFO  server.ServerHandler - Пользователь zhenya создал раздел: basic
+2025-03-03 06:19:09 INFO  server.ServerHandler - Пользователь zhenya создал голосование animals в разделе basic
+2025-03-03 06:19:09 INFO  server.Server - Активных пользователей: 1
+2025-03-03 06:19:09 INFO  server.ServerHandler - Пользователь zhenya успешно вошел в систему
+2025-03-03 06:19:09 INFO  server.ServerHandler - Пользователь zhenya создал раздел: psychology
+2025-03-03 06:19:09 INFO  server.Server - Активных пользователей: 1
+2025-03-03 06:19:09 INFO  server.Server - Активных пользователей: 1
+2025-03-03 06:19:09 INFO  server.Server - Активных пользователей: 1
+2025-03-03 06:19:09 INFO  server.Server - Данные были успешно сохранены в файл testdata.json
+2025-03-03 06:19:29 INFO  server.Server - Сервер запущен на порту 11111
