@@ -7,7 +7,7 @@ A client-server application that allows you to create voting in various sections
 
 ## Запуск
 
-Запуск идет через файл [target/VotesSystem-1.0-SNAPSHOT-jar-with-dependencies.jar.](url)
+Запуск идет через файл [target/VotesSystem-1.0-SNAPSHOT-jar-with-dependencies.jar.](target/VotesSystem-1.0-SNAPSHOT-jar-with-dependencies.jar)
 Принимает одно из двух значений: server или client.
 ### Пример:
 java -jar C:\Users\<username>\IdeaProjects\VotesSystem\target\VotesSystem-1.0-SNAPSHOT-jar-with-dependencies.jar server 
