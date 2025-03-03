@@ -7,7 +7,7 @@ public class Topic {
     private String name;
     private Map<String, Vote> votes = new HashMap<>();
 
-    public Topic(String name, String username){
+    public Topic(String name){
         this.name = name;
     }
 
