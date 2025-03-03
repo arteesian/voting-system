@@ -5,6 +5,13 @@ A client-server application that allows you to create voting in various sections
 
 Это приложение поддерживает работу как в режиме клиента, так и в режиме сервера. Оно использует библиотеку Netty для организации TCP взаимодействия между сервером и клиентом. В серверном режиме приложение может принимать команды от нескольких клиентов одновременно. Логирование осуществляется в серверном режиме. Также предусмотрены юнит-тесты.
 
+## Запуск
+
+Запуск идет через файл [target/VotesSystem-1.0-SNAPSHOT-jar-with-dependencies.jar.](url)
+Принимает одно из двух значений: server или client.
+### Пример:
+java -jar C:\Users\<username>\IdeaProjects\VotesSystem\target\VotesSystem-1.0-SNAPSHOT-jar-with-dependencies.jar server 
+
 ## Основные особенности
 
 - Поддержка режима клиента и сервера
